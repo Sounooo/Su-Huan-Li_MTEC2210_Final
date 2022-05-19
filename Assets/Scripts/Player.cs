@@ -54,6 +54,7 @@ public class Player : MonoBehaviour
         {
             ModifyHealth(-1);
             Destroy(collision.gameObject);
+            gameObject.GetComponent<AudioSource>().Play();
 
 
         }
@@ -61,6 +62,7 @@ public class Player : MonoBehaviour
         {
             ModifyHealth(-1);
             Destroy(collision.gameObject);
+            gameObject.GetComponent<AudioSource>().Play();
 
 
         }
@@ -68,6 +70,7 @@ public class Player : MonoBehaviour
         {
             ModifyHealth(-1);
             Destroy(collision.gameObject);
+            gameObject.GetComponent<AudioSource>().Play();
 
 
         }
@@ -75,6 +78,7 @@ public class Player : MonoBehaviour
         {
             ModifyHealth(-1);
             Destroy(collision.gameObject);
+            gameObject.GetComponent<AudioSource>().Play();
 
 
         }
@@ -82,6 +86,7 @@ public class Player : MonoBehaviour
         {
             ModifyHealth(-1);
             Destroy(collision.gameObject);
+            gameObject.GetComponent<AudioSource>().Play();
 
 
         }

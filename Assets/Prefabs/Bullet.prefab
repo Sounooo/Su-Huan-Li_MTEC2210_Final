@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 4968542384007824484}
   - component: {fileID: 6493690480158255784}
   - component: {fileID: 4071762681933904874}
-  - component: {fileID: 8982999099770089482}
+  - component: {fileID: -4557456709839683970}
   m_Layer: 8
   m_Name: Bullet
   m_TagString: Bullet
@@ -149,7 +149,7 @@ MonoBehaviour:
   timer: 1
   direction: {x: 0, y: 1}
   velocity: {x: 0, y: 0}
---- !u!82 &8982999099770089482
+--- !u!82 &-4557456709839683970
 AudioSource:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -159,8 +159,8 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 0}
-  m_PlayOnAwake: 1
+  m_audioClip: {fileID: 8300000, guid: 1d8fc22e481b35645ba16485274f05e5, type: 3}
+  m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
   Loop: 0

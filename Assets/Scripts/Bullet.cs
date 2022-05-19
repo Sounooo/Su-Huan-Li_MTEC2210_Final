@@ -19,7 +19,7 @@ public class Bullet : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        Destroy(gameObject, 2.0f);
+     
         player = GameObject.Find("Player").GetComponent<Player>();
 
 
@@ -33,6 +33,8 @@ public class Bullet : MonoBehaviour
         //transform.Translate(vel);
 
         velocity = direction * speed;
+     //  gameObject.GetComponent<AudioSource>().Play();
+        Destroy(gameObject, 2.0f);
         
 
     }
@@ -42,6 +44,7 @@ public class Bullet : MonoBehaviour
         Vector2 pos = transform.position;
         pos += velocity * Time.fixedDeltaTime;
         transform.position = pos;
+        
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
